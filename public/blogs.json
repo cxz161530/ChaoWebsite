@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Understanding React Hooks",
+      "summary": "A brief introduction to React Hooks and how they simplify state management in functional components.",
+      "content": "React Hooks, introduced in React 16.8, allow developers to use state and other React features in functional components. The two most common hooks are useState and useEffect. They replace the need for class components in many scenarios, making React code cleaner and more maintainable.",
+      "author": "Chaozheng Zhu",
+      "date": "2024-12-01"
+    },
+    {
+      "title": "The Future of Web Development",
+      "summary": "Exploring trends in web development, from AI tools to serverless architectures.",
+      "content": "Web development is evolving rapidly with trends like AI integration, serverless architectures, and component-driven frameworks like React. Staying updated is critical for developers to remain competitive in the ever-changing tech landscape.",
+      "author": "Chaozheng Zhu",
+      "date": "2024-12-03"
+    },
+    {
+      "title": "Mastering CSS Grid and Flexbox",
+      "summary": "A guide to mastering modern CSS layout techniques like Grid and Flexbox.",
+      "content": "CSS Grid and Flexbox are two powerful layout systems in modern web development. While Flexbox excels at creating one-dimensional layouts, CSS Grid is perfect for two-dimensional layouts. Understanding both is essential for creating responsive and visually appealing designs.",
+      "author": "Chaozheng Zhu",
+      "date": "2024-12-05"
+    }
+  ]
+  

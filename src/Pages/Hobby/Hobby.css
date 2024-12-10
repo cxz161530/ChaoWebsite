@@ -1,0 +1,33 @@
+#app img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#app img:hover {
+    transform: scale(1.05);
+}
+
+.gold-button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.gold-button:hover {
+    background-color: darkorange;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    font-size: 1rem;
+}

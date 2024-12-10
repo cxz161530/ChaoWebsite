@@ -1,0 +1,48 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the header */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Table Styling */
+.education-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-table th, .education-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.education-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.education-table td {
+    color: #555;
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.education-table tr:hover {
+    background-color: #eaeaea;
+}

@@ -1,0 +1,49 @@
+.movie-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    align-items: center;
+  }
+  
+  .movie-info img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  .movie-info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .movie-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .movie-info h2 {
+    font-size: 20px;
+    color: #34495e;
+  }
+  
+  .movie-info h3 {
+    font-size: 18px;
+    color: #16a085;
+  }
+  
+  .movie-info h4 {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  

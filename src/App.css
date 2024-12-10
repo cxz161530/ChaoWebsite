@@ -1,0 +1,53 @@
+/* General Reset */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* Background color for the header */
+  z-index: 1000; /* Ensures the header stays above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centers the nav links horizontally */
+  padding: 1rem 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Adds spacing between nav items */
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #ff6600; /* Highlight color on hover */
+}
+
+.nav-item a.active {
+  font-weight: bold;
+  color: #ff6600; /* Highlight active link */
+}
+
+
+main {
+  margin-top: 80px; /* Offset for fixed header */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f5f5f5;
+
+}

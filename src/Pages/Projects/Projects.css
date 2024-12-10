@@ -1,0 +1,52 @@
+/* Center the header */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Style the projects container */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual project items */
+.item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.item dt {
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.item dd {
+    margin: 0 0 10px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
