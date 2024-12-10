@@ -15,7 +15,7 @@ function MovieGame() {
 
   useEffect(() => {
 
-    const apiEndPoint = `http://www.omdbapi.com/?apikey=98e3fb1f&t=${movieTitle}`
+    const apiEndPoint = `https://www.omdbapi.com/?apikey=98e3fb1f&t=${movieTitle}`
 
     
     async function getMovie(){
