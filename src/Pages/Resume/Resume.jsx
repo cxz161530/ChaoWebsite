@@ -49,12 +49,29 @@ const Resume = () => {
             <p>Software Development Intern – Frontend Engineer • Sep 2024 – Current</p>
             <ul>
               <li>
-                Developed a full-stack web application using MVVM architecture, consolidating tools into a unified platform for 12 program managers.
+              Developed a full-stack supply chain web application using React, PHP and MySQL, serving 5 teams and 100+ users weekly.
               </li>
               <li>
-                Built custom React components, integrated APIs, and visualized metrics using Tableau to reduce report preparation time by 75%.
+              Managed UI and database design, implemented full-stack development for the website, finalized 3 microservices and delivered the first MVP within 4 months
               </li>
-              <li>Contributed to the Tesla Design Library by developing two reusable React components.</li>
+              <li>
+                Integrated Tableau dashboards into website using Tableau JavaScript API, enabling interactive data visualization
+              </li>
+              <li>
+              Saved 90% report preparation time, transformed 25 operation reports from Excel to Tableau & SQL 
+
+              </li>
+              <li>
+              Designed comprehensive SQL queries to access intricate data sets, integrating multi-source data in Tableau.
+
+              </li>
+              <li>
+              Optimized MySQL database schema to align complicated business logic, enabling flexible alignment with diverse team requirements by leveraging supply chain expertise.
+              </li>
+              <li>
+              Built 6 reusable React components integrated with internal database APIs to streamline data entry workflows.
+
+              </li>
             </ul>
           </div>
           <div>
@@ -73,7 +90,8 @@ const Resume = () => {
             <h3>General Assembly, Boston, MA</h3>
             <p>Software Development Fellow • Jan 2024 – Apr 2024</p>
             <ul>
-              <li>Built full-stack applications including an e-commerce site, ticket management system, and inventory tracker.</li>
+              <li>Hosted a full-stack e-commerce website on Heroku, integrating MongoDB, Node.js, and React
+              </li>
             </ul>
           </div>
         </section>
